@@ -1,0 +1,7 @@
+<resources>
+	<string name="app_name">QuickDevelopment</string>
+	<string name="baseUrl">https://www.e-ugw.com:51414</string>
+	<string name="music">音乐</string>
+	<string name="backup">云端</string>
+	<string name="friends">朋友圈</string>
+</resources>
