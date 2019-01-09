@@ -58,6 +58,7 @@ public class MainActivity extends BaseActivity<MainPresenter> implements IMainVi
 		bnve.setIconsMarginTop(BottomNavigationViewEx.dp2px(this, 4));
 		bnve.setOnNavigationItemSelectedListener(this);
 		addBadgeAt(1 , 100);
+		Log.d("MainActivity", "随便改点");
 	}
 
 	/**
@@ -77,6 +78,7 @@ public class MainActivity extends BaseActivity<MainPresenter> implements IMainVi
 		b.hide(true);
 		Log.d("MainActivity", "menuItem.getItemId():" + menuItem.getItemId());
 		// false 拦截 true不拦截
+
 		return true;
 	}
 
